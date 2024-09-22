@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Bree W01 Thin Oblique', 'Open Sans', sans-serif;
+}
+@font-face {
+  font-family: 'Bree W01 Thin Oblique';
+  src: url('/fonts/BreeSerif-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: oblique;
+}
+
+.font-bree {
+  font-family: 'Bree W01 Thin Oblique', sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .custom-icon {
+    @apply rounded-full cursor-pointer hover:ring-2 md:w-50 md:h-50 w-35 h-35;
+  }
+  .nav-button{
+    @apply w-[200px] text-black italic font-semibold focus:text-white text-nowrap bg-slate-300 hover:bg-slate-600 hover:text-white shadow-lg  focus:outline-none focus:bg-blue-700   rounded-lg text-sm px-16 py-2.5 text-center me-2 mb-2 
+  }
+
+  .nav-button.focus {
+    
+    background-color: blue;
+    color: white;
+  }
+  .custom-border::before,
+.custom-border::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    height: 2px;
+    background-color: black;
+}
+
+.custom-border::before {
+    left: -50%;
+}
+
+.custom-border::after {
+    right: -50%;
+}
+  
+}
