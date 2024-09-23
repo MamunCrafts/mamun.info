@@ -6,8 +6,9 @@ import Navbar from "@/components/Navbar";
 import ProfessionalExperience from "@/components/ProfessionalExperience";
 import Profile from "@/components/Profile";
 import Research from "@/components/Research";
+import useOnClickOutside from "@/hooks";
 import Head from "next/head";
-import { useState } from "react";
+import { useRef, useState } from "react";
 
 export default function Home() {
   const [state, setState] = useState({
@@ -29,6 +30,8 @@ export default function Home() {
     // setIsOpen(false);
   };
   const [isOpen, setIsOpen] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+  useOnClickOutside(ref, () => setIsOpen(false));
   return ( <>
    <Head>
         <title>Mamun | Info</title>
@@ -51,7 +54,7 @@ export default function Home() {
 
         {/* Dropdown menu */}
         {isOpen && (
-          <div className=" right-0 mt-2 w-1/2 items-center bg-white rounded-md shadow-lg z-20">
+          <div  ref={ref} className=" right-0 mt-2 w-1/2 items-center bg-white rounded-md shadow-lg z-20">
             <div className="py-1 items-start" >
               <button
                 type="button"
