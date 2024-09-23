@@ -32,6 +32,41 @@ export default function Research() {
             By leveraging the capabilities of SIMS, educational institutions can enhance operational efficiency, improve communication among stakeholders, and ultimately foster a more supportive learning environment for students.
           </p>
         </div>
+        <div className="ml-2">
+          <p className="text-black italic text-3xl md:text-5xl text-center">
+            <span className="border-black border-b-[3px]"> Projects</span>
+          </p>
+       
+          <h1 className="text-xl md:text-3xl text-black font-bold  mb-6"><span className="bg-yellow-300">Fanfare Bangladesh Ltd.</span></h1>
+      <p className="text-lg text-black text-justify mb-4">
+        Fanfare Bangladesh Ltd. is a pioneering Social Commerce platform, established in 2019 as a joint venture between Singapore and Bangladesh. It offers a vibrant space for users to share and explore a limitless collection of short videos while facilitating innovative digital marketing solutions for brands.
+      </p>
+      <h2 className="text-2xl text-black font-semibold mb-4">Key Features:</h2>
+      <ul className="list-disc text-black ml-5 space-y-3">
+        <li>
+          <span className="font-semibold">Shoppable User-Generated Content:</span> Fanfare empowers brands to transform any user-generated content into shoppable videos, seamlessly connecting them with target customers and driving impactful marketing results.
+        </li>
+        <li>
+          <span className="font-semibold">AI-Driven Marketing:</span> Leveraging artificial intelligence and advanced analytics, the platform optimizes advertising spend across thousands of creator channels in diverse sectors such as fashion, beauty, technology, video games, cooking, automotive, travel, and luxury.
+        </li>
+        <li>
+          <span className="font-semibold">E-Commerce Enablement:</span> Verified brands, vendors, and SMEs can register to showcase and sell products directly on the platform, offering a streamlined e-commerce experience with dynamic features designed to enhance business growth.
+        </li>
+        <li>
+          <span className="font-semibold">Socio-Commerce Ecosystem:</span> Fanfare transcends traditional social media and marketing solutions by creating a comprehensive socio-commerce ecosystem. It serves as a one-stop solution for individuals and businesses, bridging the gap between content creation, consumer engagement, and commerce.
+        </li>
+      </ul>
+      <p className="text-lg text-black text-justify mt-4">
+        With its unique blend of social interaction and commercial functionality, Fanfare aims to foster an environment where users and businesses alike can thrive, making it a platform that truly caters to everyone.
+      </p>
+          <div className="flex items-center justify-center ">
+  <video width="800" autoPlay muted loop className="rounded-lg shadow-lg">
+    <source src="./fanfare.mp4" type="video/mp4" />
+    Your network is slow, please wait for the video to load.
+  </video>
+ 
+</div>
+        </div>
       </div>
     </>
   );
