@@ -54,8 +54,8 @@ export default function Home() {
 
         {/* Dropdown menu */}
         {isOpen && (
-          <div  ref={ref} className=" right-0 mt-2 w-1/2 items-center bg-white rounded-md shadow-lg z-20">
-            <div className="py-1 items-start" >
+          <div  ref={ref} className=" absolute right-0 w-1/2 mt-2   rounded-md shadow-lg z-20">
+            <div className="py-1 items-start bg-white" >
               <button
                 type="button"
                 onClick={() => handleTabChange('experience')}
