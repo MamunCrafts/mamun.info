@@ -36,7 +36,7 @@ export default function Home() {
         <meta property="og:title" content="Japan Professor" />
       </Head>
   <div
-      className="bg-gray-200  bg-[url('https://s3.ap-south-1.amazonaws.com/bucket.portfolio.mamun/bgv4.gif')] 
+      className="bg-gray-200  bg-[url('https://s3.ap-south-1.amazonaws.com/bucket.portfolio.mamun/bgv3.png')] 
      bg-fixed bg-cover bg-center"
     >
 
