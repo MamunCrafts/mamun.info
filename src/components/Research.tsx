@@ -37,7 +37,7 @@ export default function Research() {
             <span className="border-black border-b-[3px]"> Projects</span>
           </p>
        
-          <h1 className="text-xl md:text-3xl text-black font-bold  mb-6"><span className="bg-yellow-300">Fanfare Bangladesh Ltd.</span></h1>
+          <h1 className="text-2xl md:text-3xl text-black font-bold  py-[3%]"><span className="bg-yellow-300">Fanfare Bangladesh Ltd.</span></h1>
       <p className="text-lg text-black text-justify mb-4">
         Fanfare Bangladesh Ltd. is a pioneering Social Commerce platform, established in 2019 as a joint venture between Singapore and Bangladesh. It offers a vibrant space for users to share and explore a limitless collection of short videos while facilitating innovative digital marketing solutions for brands.
       </p>
