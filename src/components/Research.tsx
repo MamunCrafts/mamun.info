@@ -82,7 +82,7 @@ export default function Research() {
       Your network is slow, please wait for the video to load.
     </video>
     <p className="text-lg text-black text-justify mt-4">
-    Showcasing the Key Features of the Fanfare Project
+    <span className="font-semibold">Images :</span> Showcasing the Key Features of the Fanfare Project
       </p>
 </div>
         </div>

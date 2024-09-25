@@ -13,15 +13,14 @@ export default function AboutMe() {
             Software Developer | Research Enthusiast | Competitive Programmer
           </p>
           <p className="text-slate-700 text-wrap text-justify text-lg">
-            I have been working as a Software Developer at Fanfare Bangladesh
-            Ltd , a dynamic social commerce platform that represents a joint
-            venture between Singapore and Bangladesh, for the past two years.
-            During my time at Fanfare, I have made significant contributions
-            that have been recognized with the Tech Genius Award, highlighting
-            my commitment to innovation and excellence in the field. My
-            experience has allowed me to develop and implement solutions that
-            enhance user experiences while driving the company mission forward.
+          I'm a Software Developer at Fanfare Bangladesh Ltd., a dynamic social commerce platform formed through a collaboration between Singapore and Bangladesh. Over the past two years, I've contributed to various projects, earning the <span className="font-semibold text-gray-900">Tech Genius Award</span> for my dedication to innovation and excellence.
+
+
           </p>
+
+          <p className="text-slate-700 text-wrap text-justify text-lg">
+          I graduated in Information and Communication Engineering from the University of Rajshahi with a CGPA of 3.21 out of 4.00. My academic journey was marked by strong performance, achieving a GPA of 5.00 out of 5.00 in my HSC and SSC exams. I was also awarded a  <span className="font-semibold text-gray-900">government scholarship during my SSC studies.</span>government scholarship during my SSC studies. I'm passionate about creating solutions that enhance user experiences and drive positive change.
+            </p>
 
           <p className="text-center py-[5%]">
             <span className="bg-yellow-300 text-2xl text-black">
