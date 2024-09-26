@@ -7,6 +7,7 @@ import ProfessionalExperience from "@/components/ProfessionalExperience";
 import Profile from "@/components/Profile";
 import Research from "@/components/Research";
 import useOnClickOutside from "@/hooks";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import Head from "next/head";
 import { useRef, useState } from "react";
 
@@ -98,6 +99,7 @@ export default function Home() {
             </div>
           )}
         </div>
+        <SpeedInsights />
       <Profile />
 
       <Navbar handleTabChange={handleTabChange} />
