@@ -19,7 +19,7 @@ export default function ProfessionalExperience() {
               ></img>
             </div>
             <div className="ml-2">
-              <p className="text-black text-3xl ">Software Engineer</p>
+              <p className="text-black text-3xl ">Software Developer</p>
               <p className="text-black text-lg ">Fanfare Bangladesh</p>
               <p className="text-black text-lg ">2022-Present</p>
               <p className="text-black text-lg ">Dhaka, Bangladesh</p>
