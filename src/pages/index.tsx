@@ -46,7 +46,7 @@ export default function Home() {
         <meta property="og:title" content="Japan Professor" />
       </Head>
 
-      <div className="bg-gray-200 bg-[url('https://s3.ap-south-1.amazonaws.com/bucket.portfolio.mamun/bgv3.png')] bg-fixed bg-cover bg-center">
+      <div className="bg-gray-200 bg-[url('https://s3.ap-south-1.amazonaws.com/bucket.portfolio.mamun/mystack.webp')] bg-fixed bg-cover bg-center">
         {/* Mobile Navbar */}
         <div className="md:hidden relative pt-[2%] pl-[2%]">
           <img
