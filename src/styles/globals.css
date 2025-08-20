@@ -38,15 +38,20 @@ body {
   .custom-icon {
     @apply rounded-full cursor-pointer hover:ring-2 md:w-50 md:h-50 w-35 h-35;
   }
-  .nav-button{
-    @apply w-[200px] text-black italic font-semibold focus:text-white text-nowrap bg-slate-300 hover:bg-slate-600 hover:text-white shadow-lg  focus:outline-none focus:bg-blue-700   rounded-lg text-sm px-16 py-2.5 text-center me-2 mb-2 
+  .nav-button {
+    @apply 
+      w-[200px] 
+      transition-all duration-500   /* transition duration: 500ms */
+      text-black italic font-semibold 
+      text-nowrap 
+      bg-slate-300 
+      hover:bg-slate-600 hover:text-white 
+      focus:bg-blue-700 focus:text-white 
+      shadow-lg 
+      focus:outline-none 
+      rounded-lg text-sm px-16 py-2.5 text-center me-2 mb-2;
   }
-
-  .nav-button.focus {
-    
-    background-color: blue;
-    color: white;
-  }
+  
   .custom-border::before,
 .custom-border::after {
     content: '';
